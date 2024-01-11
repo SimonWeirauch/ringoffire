@@ -34,10 +34,6 @@ export class GameComponent {
       if(!this.pickCardAnimation){
         this.currentCard = this.game.stack.pop();
         this.pickCardAnimation = true;
-        
-        console.log('new card is ' + this.currentCard)
-        console.log(this.game);
-        
         this.game.currentPlayer++;
         this.game.currentPlayer = this.game.currentPlayer % this.game.players.length;
         

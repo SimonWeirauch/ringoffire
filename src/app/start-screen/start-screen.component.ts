@@ -10,12 +10,13 @@ import { Router} from '@angular/router';
 })
 export class StartScreenComponent {
 
-  constructer(router: Router){
+  constructor(private router: Router){
 
   }
 
+
   newGame(){
-    window.location.href = 'http://localhost:4200/game'
+    this.router.navigateByUrl('game');
   }
 
 }
