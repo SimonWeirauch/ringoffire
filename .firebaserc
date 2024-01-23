@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ringoffire-9f32a": {
+      "hosting": {
+        "ringoffire": [
+          "ringoffire-9f32a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ringoffire-9f32a"
+  }
+}
